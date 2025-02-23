@@ -1,0 +1,119 @@
+.dashboard-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .form-container {
+    
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .select-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .transactions-list {
+    margin-top: 2rem;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    background-color: white;
+  }
+  
+  .transaction-info {
+    flex-grow: 1;
+  }
+  
+  .transaction-description {
+    font-weight: 500;
+  }
+  
+  .transaction-date {
+    color: #666;
+    font-size: 0.875rem;
+  }
+  
+  .transaction-amount {
+    font-weight: bold;
+    margin: 0 1rem;
+  }
+  
+  .amount-income {
+    color: #4CAF50;
+  }
+  
+  .amount-expense {
+    color: #f44336;
+  }
+  
+  .delete-button {
+    background-color: #ff4444;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .chart-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

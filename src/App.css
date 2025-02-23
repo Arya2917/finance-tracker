@@ -1,3 +1,4 @@
+/* Original App.css styles */
 .App {
   text-align: center;
 }
@@ -34,5 +35,83 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* New Navigation Styles */
+.navbar {
+  background-color: #282c34;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #3d4451;
+}
+
+.nav-links a.active {
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .logout-btn {
+    margin-top: 1rem;
   }
 }
